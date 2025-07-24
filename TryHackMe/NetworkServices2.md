@@ -1,29 +1,11 @@
-# TryHackMe – Network Services 2
+Room: Network Services 2  
+    Username: siinon  
+    Difficulty: Easy  
 
-## 🌐 Room Info
-- Room: [Network Services 2](https://tryhackme.com/room/networkservices2)
-- Username: siinon
-- Difficulty: Easy
+This room continued where the first one left off by diving into more services like SMB, HTTP, and NFS. I learned how these services work and how they can be misconfigured in ways that make them vulnerable to attacks.
 
----
+I practiced using tools like `smbclient`, `enum4linux`, and `showmount` to gather information. With SMB, I learned how file shares can leak sensitive data if access controls aren’t set properly. NFS was similar — if a directory is exported without restrictions, anyone on the network might be able to mount it and see what's inside.
 
-## 🧠 What I Learned
-- Built on previous service enumeration knowledge with more complex services like **SMTP** and **MySQL**
-- Practiced identifying and exploiting misconfigured databases and mail servers
-- Learned how to connect to services manually to test for open authentication or leaked data
+There was also some light web enumeration using `curl` and `dirb`, which helped me start thinking about how HTTP services can reveal information even without a visible website.
 
----
-
-## 🛠️ Tools / Skills Practiced
-- `telnet` and `nc` (netcat) to connect to SMTP manually
-- `mysql -u` to access open database servers
-- Banner grabbing and manual enumeration techniques
-
----
-
-## ⚙️ Useful Commands
-
-```bash
-telnet target-ip 25                     # connect to SMTP
-nc -nv target-ip 3306                   # check MySQL service
-mysql -h target-ip -u root -p           # attempt MySQL login
+This room made me realize how common it is to find these services on networks and how important it is to test them for default settings or loose permissions.
