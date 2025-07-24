@@ -1,39 +1,11 @@
-# TryHackMe – HTTP in Detail
+Room: HTTP in Detail  
+    Username: siinon  
+    Difficulty: Easy  
 
-## 🌐 Room Info
-- Room: [HTTP in Detail](https://tryhackme.com/room/httpindetail)
-- Username: siinon
-- Difficulty: Easy
+This room helped me understand how the HTTP protocol works when a user interacts with websites. I got a clearer picture of how requests and responses are structured — with headers, methods like GET and POST, and status codes.
 
----
+I learned how clients send HTTP requests and how servers respond, along with the different methods (GET, POST, PUT, DELETE, etc.) and what they’re used for. For example, GET is for retrieving data and POST is for sending data like login forms.
 
-## 🧠 What I Learned
-- Broke down how the **HTTP protocol** works and its role in web communication
-- Learned about **HTTP request methods** like GET, POST, PUT, DELETE
-- Explored **HTTP response status codes** (200 OK, 404 Not Found, 403 Forbidden, etc.)
-- Saw how headers and cookies are used in client-server communication
+There was also a good breakdown of status codes, like 200 for success, 403 for forbidden, and 404 for not found. I practiced analyzing requests using browser dev tools and curl from the command line, which helped me see what’s really going on when loading a webpage.
 
----
-
-## 🛠️ Tools / Skills Practiced
-- `curl` to manually send HTTP requests
-- Interpreting HTTP headers and response codes
-- Understanding how login forms and web sessions work
-
----
-
-## 🧾 Common HTTP Methods
-
-| Method | Purpose                                |
-|--------|----------------------------------------|
-| GET    | Retrieve data (default in browsers)    |
-| POST   | Submit data (used in forms)            |
-| PUT    | Update/replace a resource              |
-| DELETE | Remove a resource                      |
-
----
-
-## 🔍 Commands to Remember
-```bash
-curl -I http://target               # Show only HTTP headers  
-curl -X POST -d "user=admin" http://target/login  
+By the end, I had a better understanding of how web traffic looks under the hood and why it matters for both web development and security testing. Knowing how to manually craft or intercept HTTP requests is going to be important as I get deeper into web-based attack techniques.
