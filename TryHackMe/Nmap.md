@@ -1,31 +1,11 @@
-# TryHackMe – Nmap
+Room: Nmap  
+    Username: siinon  
+    Difficulty: Easy  
 
-## 🔍 Room Info
-- Room: [Nmap](https://tryhackme.com/room/nmap)
-- Username: siinon
-- Difficulty: Easy
+This room taught me how to use Nmap to scan networks and gather information about live hosts, open ports, and services running on those ports. It broke down the different types of scans, like SYN scans, version detection, and script scanning.
 
----
+I practiced using flags like `-sS`, `-sV`, `-A`, and `-p-` to customize my scans depending on what I wanted to find. The explanations helped me understand when to use stealthy scans versus more aggressive ones.
 
-## 🧠 What I Learned
-- Learned how to use **Nmap**, the most common tool for network discovery and port scanning
-- Explored the differences between scanning types: SYN (`-sS`), full connect (`-sT`), UDP (`-sU`)
-- Practiced identifying open ports, services, versions, and even OS detection
+I also got introduced to Nmap scripting, which lets you run custom checks for things like default credentials or known vulnerabilities. It gave me a better sense of how automated scanning can go beyond just listing open ports.
 
----
-
-## 🛠️ Tools / Skills Practiced
-- Using `nmap` with different flags for stealth, speed, and verbosity
-- Interpreting scan results to find running services
-- Basic enumeration of targets before exploitation
-
----
-
-## ⚙️ Common Nmap Commands
-
-```bash
-nmap -sS target-ip              # SYN scan (stealthy)
-nmap -sV target-ip              # Version detection
-nmap -O target-ip               # OS detection
-nmap -p- target-ip              # Scan all 65535 ports
-nmap -A target-ip               # Aggressive scan (OS, scripts, traceroute)
+Now I feel way more confident using Nmap as a tool during enumeration. It’s something I’ll probably use in almost every future lab or real-world scenario where network discovery is needed.
