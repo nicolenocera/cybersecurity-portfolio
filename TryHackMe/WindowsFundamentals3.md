@@ -1,32 +1,20 @@
-# TryHackMe – Windows Fundamentals Part 3
+Room: Windows Fundamentals 3  
+Username: siinon  
+Difficulty: Easy  
 
-## 🔧 Room Info
-- Room: [Windows Fundamentals 3](https://tryhackme.com/room/windowsfundamentals3)
-- Username: siinon
-- Difficulty: Easy
+This room was all about the Windows Registry, services, and startup behavior. At first it felt kind of overwhelming, but once I got into it, it started making more sense.
 
----
+I learned that the registry is basically a huge database that controls how Windows behaves. Editing it directly can mess up your system if you’re not careful, but it’s also a place attackers might hide persistence methods. I used `regedit` to open the registry and looked through some of the keys that get used during startup.
 
-## 🧠 What I Learned
-- Learned about Windows Defender and how it protects the system in real-time
-- Explored BitLocker and how it’s used to encrypt drives
-- Understood how the Windows Security Center tracks antivirus, firewall, and updates
-- Reviewed best practices for keeping a Windows system secure
+I also explored how services work. Some are essential for the OS, but others are installed by third-party programs and can be abused. The `services.msc` tool helped me see which ones were running, their startup types, and whether they were manual or automatic.
 
----
+Then I learned about different places programs can set themselves up to launch automatically — not just the Startup folder, but also certain registry keys.
 
-## 🛠️ Tools / Skills Practiced
-- Windows Defender (Security Center)
-- BitLocker overview
-- System health and firewall checks
+```
+regedit                 // open registry editor  
+msconfig                // manage startup settings  
+services.msc            // view and manage services  
+```
 
----
+I didn’t expect to like this room, but it actually helped me understand how Windows boots and how both admins and attackers can manipulate startup behavior. Definitely gave me some things to watch out for.
 
-## 📝 Notes & Tips
-- BitLocker helps protect data even if a device is physically stolen
-- The Security Center dashboard provides an easy way to check for updates, protection, and health
-- Real-time protection should always be enabled unless troubleshooting
-
----
-
-🏁 Status: Completed  
