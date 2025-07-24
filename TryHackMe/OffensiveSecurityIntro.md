@@ -1,26 +1,11 @@
-# TryHackMe – Offensive Security Intro
+Room: Offensive Security Intro  
+    Username: siinon  
+    Difficulty: Easy  
 
-## 🔧 Room Info
-- Room: [Offensive Security Intro](https://tryhackme.com/room/introtooffensivesecurity)
-- Username: siinon
-- Difficulty: Easy
+This room gave me a big-picture view of what offensive security is all about. It introduced me to the mindset of ethical hackers and how they approach breaking into systems to find weaknesses before real attackers do.
 
----
+I learned about the stages of an attack — like reconnaissance, scanning, exploitation, and post-exploitation. Each phase has its own tools and goals, and the room explained how red teamers use those to simulate real-world attacks.
 
-## 🧠 What I Learned
-- Understood the legal and ethical boundaries of ethical hacking
-- Identified and exploited a basic web vulnerability in a sandboxed environment
-- Practiced attacking a login page using provided credentials or methods
-- Saw how offensive tools are used from a hacker’s perspective
+It also covered the legal side of hacking and why having permission is a big deal. There was a focus on responsible disclosure and following proper testing guidelines so that security research is done ethically.
 
----
-
-## 🛠️ Tools / Skills Practiced
-- Web vulnerability exploitation
-- Web application analysis
-- Basic recon (HTML inspection, form manipulation)
-
----
-
-✅ Badge Progress: Building foundational red team exposure  
-🏁 Status: Completed in Pre-Security Path  
+By the end of the room, I had a better understanding of what penetration testing looks like from start to finish and how offensive knowledge helps improve defense. It made me even more interested in learning both sides of cybersecurity.
