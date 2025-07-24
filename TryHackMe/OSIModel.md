@@ -1,40 +1,11 @@
-# TryHackMe – OSI Model
+Room: OSI Model  
+    Username: siinon  
+    Difficulty: Easy  
 
-## 🖥️ Room Info
-- Room: [OSI Model](https://tryhackme.com/room/osimodel)
-- Username: siinon
-- Difficulty: Easy
+This room helped me understand the OSI model and how data moves through different layers of a network. It broke the model down into seven layers, each with a specific role in sending and receiving information.
 
----
+I learned how each layer builds on the one below it — starting from the physical connection all the way up to the application layer. It helped me connect how things like IP addresses, MAC addresses, ports, and protocols all fit into different layers.
 
-## 🧠 What I Learned
-- Broke down the **7 layers** of the OSI model and how data moves through each one
-- Mapped real-world tools and protocols to their corresponding layers
-- Gained a better understanding of **encapsulation and de-encapsulation**
+There were good examples that made the layers more real, like comparing them to mailing a letter or browsing a website. That helped the concepts stick.
 
----
-
-## 🛠️ Tools / Skills Practiced
-- Identifying protocols like TCP/UDP, IP, MAC, HTTP, etc., and their place in the model
-- Applying OSI knowledge to packet analysis and troubleshooting
-- Layer association: physical (cables), data link (MAC), transport (TCP), and so on
-
----
-
-## 🧩 Key OSI Layers Overview
-
-| Layer # | Name              | Description                          | Example Protocols          |
-|---------|-------------------|--------------------------------------|----------------------------|
-| 7       | Application       | User interface & app-level services  | HTTP, DNS, FTP             |
-| 6       | Presentation      | Data formatting, encryption          | SSL/TLS, JPEG, MPEG        |
-| 5       | Session           | Manages sessions, connections        | NetBIOS, PPTP              |
-| 4       | Transport         | Reliable delivery, segmentation      | TCP, UDP                   |
-| 3       | Network           | Routing, addressing                  | IP, ICMP                   |
-| 2       | Data Link         | MAC addressing, error detection      | Ethernet, PPP              |
-| 1       | Physical          | Hardware, cables, signals            | Cables, NICs, Hubs         |
-
----
-
-📘 Tip: "Please Do Not Throw Sausage Pizza Away" is a mnemonic to remember layers **7 to 1**.
-
-🏁 Status: Completed  
+Now when I troubleshoot network issues or look at packet captures, I can tell which layer something belongs to and what might be going wrong. It gave me a good foundation to build on for more advanced networking topics.
