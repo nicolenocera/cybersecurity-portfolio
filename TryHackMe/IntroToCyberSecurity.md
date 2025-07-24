@@ -10,3 +10,4 @@ There were sections on encryption, authentication, and basic networking, all exp
 
 By the end of the room, I had a clearer idea of the different job paths in cybersecurity and what skills are in demand. It confirmed that this is something I want to stick with and go deeper into.
 
+
