@@ -1,32 +1,22 @@
-# TryHackMe – Linux Fundamentals Part 1
+Room: Linux Fundamentals 1  
+Username: siinon  
+Difficulty: Easy  
 
-## 🔧 Room Info
-- Room: [Linux Fundamentals Part 1](https://tryhackme.com/room/linuxfundamentals1)
-- Username: siinon
-- Difficulty: Easy
+This was my first real dive into using Linux, and it took some adjusting. I used the TryHackMe virtual machine to follow along with the tasks and try things out in the terminal.
 
----
+Most of the room focused on learning the basics of navigating the Linux filesystem and understanding how permissions and ownership work. I got comfortable using commands like:
 
-## 🧠 What I Learned
-- Navigated the Linux terminal using basic commands like `ls`, `cd`, `pwd`, `clear`
-- Learned how Linux file system is structured (`/home`, `/etc`, etc.)
-- Created, moved, and deleted files using `touch`, `mv`, and `rm`
-- Explored hidden files with `ls -a`
-- Understood file permissions and how to modify them
+```
+ls             // list files and directories  
+cd             // change directory  
+pwd            // print working directory  
+touch          // create a new empty file  
+mkdir          // make a new directory  
+rm             // remove a file  
+rmdir          // remove an empty directory  
+```
 
----
+I also learned how Linux handles users, groups, and file permissions. That part was confusing at first, especially when it came to symbols like `rwx` and numeric values like `chmod 755`, but the examples helped. 
 
-## 🛠️ Tools / Skills Practiced
-- THM AttackBox (Linux)
-- Bash shell commands
-- Terminal-based navigation
+One thing that stuck with me was how powerful the command line is — you can get a lot done quickly once you know what you're doing. This room gave me a solid foundation to build on, and I started to actually enjoy using Linux.
 
----
-
-## 📝 Commands to Remember
-```bash
-ls -la       # list all files with permissions  
-pwd          # print working directory  
-touch file   # create an empty file  
-rm file      # remove a file  
-chmod 755    # change file permissions  
