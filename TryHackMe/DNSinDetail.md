@@ -1,43 +1,11 @@
-# TryHackMe – DNS in Detail
+Room: DNS in Detail  
+    Username: siinon  
+    Difficulty: Easy  
 
-## 🌐 Room Info
-- Room: [DNS in Detail](https://tryhackme.com/room/dnsindetail)
-- Username: siinon
-- Difficulty: Easy
+This room helped me understand how the Domain Name System (DNS) works behind the scenes. I got familiar with the role of DNS in translating domain names into IP addresses, which is what lets users access websites with easy-to-remember names instead of numeric IPs.
 
----
+I worked with tools like `nslookup` and `dig` to explore DNS records. I learned how to look up different types of records, like A, AAAA, MX, NS, and TXT. One important thing I picked up was how DNS requests and responses can reveal a lot about how a network is structured.
 
-## 🧠 What I Learned
-- Understood the purpose and function of the **Domain Name System (DNS)**
-- Learned how DNS translates human-friendly domains to IP addresses
-- Explored different **DNS record types** like A, AAAA, CNAME, MX, and TXT
-- Practiced DNS enumeration techniques using **nslookup** and **dig**
+I also learned about common attacks related to DNS, like DNS poisoning and spoofing, and how misconfigurations can lead to information leakage. The zone transfer lab showed me that if a server allows AXFR (zone transfer) requests from any IP, it can expose internal domain data — something that shouldn’t be publicly accessible.
 
----
-
-## 🛠️ Tools / Skills Practiced
-- Using `nslookup` to query DNS records
-- Learning how **dig** works for detailed DNS lookups
-- Identifying **zone transfer vulnerabilities**
-- Recognizing suspicious or misconfigured DNS entries
-
----
-
-## 🧾 Common DNS Record Types
-
-| Record | Purpose                              | Example                       |
-|--------|--------------------------------------|-------------------------------|
-| A      | Maps domain to IPv4 address          | `example.com → 192.168.1.1`   |
-| AAAA   | Maps domain to IPv6 address          | `example.com → ::1`           |
-| CNAME  | Alias of another domain              | `www → example.com`           |
-| MX     | Mail exchange server info            | `mail → mail.example.com`     |
-| TXT    | Arbitrary text, often for SPF/DMARC  | `"v=spf1 include:_spf.google.com"` |
-
----
-
-## 🧪 Commands to Remember
-
-```bash
-nslookup example.com
-dig example.com any
-dig @nameserver example.com axfr  # Zone transfer attempt
+Overall, this room gave me a better grasp on how DNS fits into both networking and security. It’s something I’ll pay more attention to when scanning or setting up a network.
