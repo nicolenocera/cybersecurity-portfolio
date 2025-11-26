@@ -17,5 +17,5 @@ These are the badges I have earned on TryHackMe. They reflect the work I’ve do
 - Windows Fundamentals  
   Completed Windows Fundamentals Parts 1, 2, and 3, plus Windows Command Line.
 
-I will add screenshots for each badge after uploading them to the repository.
+
 ![Badges](./images/THM.Badges.png)
