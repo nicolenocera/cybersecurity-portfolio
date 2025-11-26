@@ -2,7 +2,7 @@
 
 This file lists the Security+ domains and the sections I’ve completed so far while studying for the SY0-701 exam.
 
----
+
 
 ## 1.0 Summarize Fundamental Security Concepts
 - Basic security terminology  
