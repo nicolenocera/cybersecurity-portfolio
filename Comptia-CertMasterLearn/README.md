@@ -1,5 +1,5 @@
 # CompTIA CertMaster Learn Progress
-#hello
+
 This folder contains my progress for the CompTIA CertMaster Learn Security+ course. I am using this space to keep track of the labs and badges I have completed while studying for the SY0-701 exam.
 
 Labs Completed
