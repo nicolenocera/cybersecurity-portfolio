@@ -2,7 +2,7 @@
 
 Hi, I’m Nicole. I’m a self-taught IT learner working on transitioning into the cybersecurity field. Right now I’m studying for my CompTIA Security+ certification while practicing hands-on skills through platforms like TryHackMe and HackTheBox.
 
-I’m also preparing to join the Army National Guard in an IT or cyber intelligence role. This portfolio is where I’m tracking my progress, labs, and technical notes to show the work I’ve been putting in and how serious I am about building a long-term career in cybersecurity or cloud security.
+This portfolio is where I’m tracking my progress, labs, and technical notes to show the work I’ve been putting in and how serious I am about building a long-term career in cybersecurity or cloud security.
 
 ---
 
