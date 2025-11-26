@@ -19,3 +19,7 @@ These are the badges I have earned on TryHackMe. They reflect the work I’ve do
 
 
 ![Badges](./images/THM.Badges.png)
+
+![Completed Rooms Part 1](./images/THM.CompletedRoomsPt1.png)
+![Completed Rooms Part 2](./images/THM.CompletedRoomsPt2.png)
+
