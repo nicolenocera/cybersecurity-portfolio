@@ -1,21 +1,29 @@
 # TryHackMe Progress Tracker
 
-This page keeps track of the rooms I've completed on TryHackMe while building hands-on skills in cybersecurity. It helps me stay organized and show my learning progress across different tools, modules, and paths.
+This file keeps track of the rooms I’ve worked on while learning the basics of cybersecurity. I update it as I go.
 
-| Room                      | Type              | Status       |
-|---------------------------|-------------------|--------------|
-| Intro to Cybersecurity    | Beginner          | Completed    |
-| Pre-Security Path         | Beginner Path     | Completed    |
-| Offensive Security Path   | Intermediate Path | In Progress  |
-| Linux Fundamentals 1      | Module            | Completed    |
-| Linux Fundamentals 2      | Module            | Completed    |
-| Linux Fundamentals 3      | Module            | Completed    |
-| Windows Fundamentals 1    | Module            | Completed    |
-| Windows Fundamentals 2    | Module            | Completed    |
-| Windows Fundamentals 3    | Module            | Completed    |
-| Nmap                      | Tool              | Completed    |
-| Burp Suite                | Tool              | Completed    |
-| Metasploit                | Tool              | Completed    |
-| Hydra                     | Tool              | Completed    |
-| Vulnversity               | Hands-on          | Completed    |
-| Network Services 1        | Hands-on          | Completed    |
+Intro and Beginner Rooms
+- Intro to Cybersecurity – completed  
+- Pre-Security Path – completed  
+- Offensive Security Path – currently working on it  
+
+Linux Fundamentals
+- Linux Fundamentals 1 – completed  
+- Linux Fundamentals 2 – completed  
+- Linux Fundamentals 3 – completed  
+
+Windows Fundamentals
+- Windows Fundamentals 1 – completed  
+- Windows Fundamentals 2 – completed  
+- Windows Fundamentals 3 – completed  
+
+Tools and Hands-On Rooms
+- Nmap – completed  
+- Burp Suite – completed  
+- Metasploit – completed  
+- Hydra – completed  
+- Vulnversity – completed  
+
+Networking Rooms
+- Network Services 1 – completed  
+- Network Services 2 – completed  
