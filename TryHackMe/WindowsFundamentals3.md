@@ -8,7 +8,7 @@ I learned that the registry is basically a huge database that controls how Windo
 
 I also explored how services work. Some are essential for the OS, but others are installed by third-party programs and can be abused. The `services.msc` tool helped me see which ones were running, their startup types, and whether they were manual or automatic.
 
-Then I learned about different places programs can set themselves up to launch automatically — not just the Startup folder, but also certain registry keys.
+Then I learned about different places programs can set themselves up to launch automatically, not just the Startup folder, but also certain registry keys.
 
 ```
 regedit                 // open registry editor  
