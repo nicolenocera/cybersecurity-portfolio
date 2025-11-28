@@ -9,3 +9,9 @@ This lab focused on enforcing strong password policies, understanding account se
 
 ### Screenshot
 ![Managing Password Security Lab](../images/ManagingPasswordSecurityLab.png)
+
+
+## Lab Summary
+This lab strengthened my understanding of secure password management,
+including enforcing strong password rules, monitoring account status,
+and applying authentication best practices in a simulated environment.
