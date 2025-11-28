@@ -18,5 +18,5 @@ rmdir          // remove an empty directory
 
 I also learned how Linux handles users, groups, and file permissions. That part was confusing at first, especially when it came to symbols like `rwx` and numeric values like `chmod 755`, but the examples helped. 
 
-One thing that stuck with me was how powerful the command line is — you can get a lot done quickly once you know what you're doing. This room gave me a solid foundation to build on, and I started to actually enjoy using Linux.
+One thing that stuck with me was how powerful the command line is, you can get a lot done quickly once you know what you're doing. This room gave me a solid foundation to build on, and I started to actually enjoy using Linux.
 
