@@ -8,5 +8,5 @@ I practiced using Hydra in the terminal by targeting services with default crede
 
 The room also emphasized why using strong, unique passwords and implementing account lockouts or rate limiting is so important for defense. If those protections aren't in place, Hydra can easily break weak logins.
 
-Overall, this was a good intro to offensive tools and helped me see how brute-force works from an attacker’s point of view — something I’ll need to understand when I move into blue team roles.
+Overall, this was a good intro to offensive tools and helped me see how brute-force works from an attacker’s point of view, something I’ll need to understand when I move into blue team roles.
 
