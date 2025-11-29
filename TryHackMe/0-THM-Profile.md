@@ -10,6 +10,6 @@ I currently have:
 This page gives a simple overview of my activity so far.
 
 
-![TryHackMe Profile](./images/THM.Profile.png)
+![TryHackMe Profile](/images/THM.Profile.png)
 
 
