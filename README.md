@@ -8,10 +8,9 @@ This portfolio is where I keep track of my progress, labs, and notes. It’s mai
 
 ## About Me
 
-- My background is in healthcare and data entry  
-- I’m interested in cybersecurity, threat detection, networking, and system security  
+- I’m coming from a background in healthcare and data entry and moving to cybersecurity, threat detection, networking, and system security
 - I learn best by doing, so I focus a lot on hands-on practice  
-- I’m working toward a role in IT or cybersecurity once I feel ready  
+- I’m working toward a role in IT or cybersecurity  
 - Everything in this repo is part of my learning process  
 
 ---
