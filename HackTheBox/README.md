@@ -17,7 +17,7 @@ All machines were completed at 100 percent.
 
 ## Screenshot
 
-
+![HTB Tier 0 Completion](../images/HtbPwnd.png)
 
 ## What I Learned
 
@@ -25,6 +25,6 @@ All machines were completed at 100 percent.
 - Basic enumeration with tools like nmap  
 - How to interact with services such as SSH, FTP, and SMB  
 - How to look for simple weaknesses or misconfigurations  
-- How to navigate Linux and Windows file systems to locate flags  
+- How to navigate Linux and Windows file systems to locate flags
 
 
