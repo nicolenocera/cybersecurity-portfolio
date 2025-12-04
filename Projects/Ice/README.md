@@ -45,14 +45,5 @@ This warning appears on almost every Windows computer. It looks serious, but it�
 - Most warnings are normal Windows noise.
 - Filtering is so much easier than scrolling through thousands of logs.
 - I’m starting to recognize common event IDs and what they mean.
-- Even small projects like this help me build confidence with real security tools.
-
----
-
-## Why this project is here
-This is part of my cybersecurity learning portfolio. I’m teaching myself and doing hands-on practice with whatever I have available. Reading logs is a big part of security work, so this project helps me build that skill.
-
-
-## Why this project is here
-This is part of my cybersecurity learning portfolio. I’m teaching myself and doing hands-on practice with whatever I have available. Reading logs is a big part of security work, so this project helps me build that skill.
+- Even small projects like this help me build confidence with security tools.
 
