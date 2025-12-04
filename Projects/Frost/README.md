@@ -3,7 +3,7 @@
 This project documents a basic network troubleshooting workflow on a Windows system.  
 The goal was to check adapter status, confirm IP configuration, and verify whether the system was using Ethernet or Wi-Fi.
 
----
+
 
 ## 1. Checking Current IP Configuration
 
@@ -20,7 +20,7 @@ These commands show the system’s active network adapters, assigned IP addresse
 ### ipconfig /all
 ![ipconfig all](images/ipconfig_all.png)
 
----
+
 
 ## 2. Verifying Adapter Status in Control Panel
 
