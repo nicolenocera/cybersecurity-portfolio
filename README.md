@@ -1,33 +1,46 @@
 # Cybersecurity Portfolio
 
-Hi, I’m Nicole. I’m a self-taught IT learner working toward a career in cybersecurity. I’m currently studying for my CompTIA Security+ certification and building hands-on experience through TryHackMe, HackTheBox, and personal labs.
+Hi, I'm Nicole. I recently earned my CompTIA Security+ certification and am transitioning from healthcare into IT and cybersecurity.
 
-This portfolio is where I keep my notes, practice labs, and progress as I learn security, networking, Linux, Windows, and general IT fundamentals.
+My background includes laboratory operations, data management, HIPAA compliance, specimen tracking, and working with sensitive information in regulated environments. Through self-study, hands-on labs, and personal projects you can find here, I have built practical skills in areas including Windows, networking, Linux, security fundamentals, and troubleshooting.
 
-## About Me
-- Moving from healthcare and data work into IT and cybersecurity  
-- Strong focus on hands-on learning and practical troubleshooting  
-- Interested in threat detection, system security, and networking  
-- Actively building skills through structured study and real practice labs  
+This portfolio contains my labs, notes, projects, and learning progress as I continue building technical skills and working toward my first IT role.
 
-## Certifications I’m Working Toward
-- CompTIA Security+  
-- Microsoft Azure Fundamentals (AZ-900)  
-- Additional security or cloud certifications after Security+  
+## Certifications
 
-## What I’m Currently Working On
-- TryHackMe beginner and intermediate rooms  
-- HackTheBox Academy modules  
-- Windows and Linux fundamentals  
-- Networking basics and security tools  
-- Creating notes, flashcards, and small troubleshooting projects  
+- CompTIA Security+ (SY0-701)
+- Microsoft Azure Fundamentals (AZ-900) - Currently studying
 
-You can explore the folders in this repo to see the labs and write-ups I’ve completed so far.
+## What You'll Find Here
 
-## Goals
-- Pass the Security+ exam  
-- Strengthen my networking, cloud, and security knowledge  
-- Build more hands-on experience through labs and small projects  
-- Transition into an entry-level IT or cybersecurity role  
+- TryHackMe and Hack The Box lab write-ups
+- Windows, Linux, networking, and security notes
+- Security+ study materials and references
+- Hands-on projects and troubleshooting practice
+- Documentation from labs and self-directed learning
 
-Thanks for taking the time to look through my portfolio. I update it regularly as I learn more.
+## Completed Training
+
+### TryHackMe
+
+- Windows Fundamentals 1
+- Windows Fundamentals 2
+- Windows Fundamentals 3
+- Linux Fundamentals
+- DNS in Detail
+- HTTP in Detail
+- Hydra
+- Burp Suite
+- Intro to Blue Team
+
+### Hack The Box
+
+- Fawn
+- Dancing
+- Redeemer
+- Explosion
+- Preignition
+- Mongod
+- Synced
+
+Thanks for taking the time to look through my portfolio.
