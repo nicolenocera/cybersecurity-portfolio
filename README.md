@@ -13,11 +13,11 @@ This portfolio contains my labs, notes, projects, and learning progress as I con
 
 ## What You'll Find Here
 
-- TryHackMe and Hack The Box lab write-ups
+- TryHackMe and Hack The Box labs
 - Windows, Linux, networking, and security notes
 - Security+ study materials and references
-- Hands-on projects and troubleshooting practice
-- Documentation from labs and self-directed learning
+- Projects and troubleshooting practice
+- Documentation from labs
 
 ## Completed Training
 
