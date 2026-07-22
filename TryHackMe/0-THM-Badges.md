@@ -24,3 +24,4 @@ These are the badges I have earned on TryHackMe. They reflect the work I’ve do
 
 ### All Rooms
 ![All Rooms](/images/THM.AllRooms.png)
+!(/images/completed-rooms.png)
