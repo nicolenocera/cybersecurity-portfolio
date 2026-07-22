@@ -19,7 +19,7 @@ During this lab I installed Ubuntu, practiced common Linux commands, learned how
 
 ## Project Overview
 
-This was my first Linux lab. I created an Ubuntu virtual machine and started getting comfortable using the terminal instead of clicking through everything with a mouse. Along the way I practiced common Linux commands, organized files, edited text files, checked system information, and learned how package updates work.
+This was my first time setting up a VM. I created an Ubuntu virtual machine and started getting comfortable using the terminal instead of clicking through everything with a mouse. I reviewed common Linux commands, organized files, edited text files, checked system information, and learned how package updates work.
 
 ## Screenshots
 
@@ -43,7 +43,7 @@ Installed Oracle VirtualBox and created the Ubuntu virtual machine.
 
 ### Learning the Linux Terminal
 
-Created folders, navigated directories, edited text files, and practiced common Linux commands.
+Created folders, navigated directories, edited text files, and practiced Linux commands.
 
 ![Files Created](screenshots/05-files-created.png)
 
@@ -73,7 +73,7 @@ Created folders, navigated directories, edited text files, and practiced common 
 
 | Command | What I Used It For |
 |---------|--------------------|
-| `pwd` | Displayed my current working directory. |
+| `pwd` | Displayed current working directory. |
 | `ls` | Listed files and folders. |
 | `cd` | Moved between directories. |
 | `mkdir` | Created folders for organizing my lab files. |
@@ -92,13 +92,12 @@ Created folders, navigated directories, edited text files, and practiced common 
 | `ps` | Viewed running processes. |
 | `top` | Monitored running processes in real time. |
 | `chmod` | Changed file permissions. |
-| `sudo apt update` | Refreshed the package list from Ubuntu repositories. |
+| `sudo apt update` | Refreshed package list from Ubuntu repositories. |
 | `apt list --upgradable` | Viewed available package updates. |
 | `ls -l` | Viewed file permissions and ownership. |
 
 ## What I Learned
 
-## What I Learned
 
 This lab helped me become much more comfortable using Linux from the terminal. Before this, I had some experience using Linux through TryHackMe, but this was my first time setting up my own Ubuntu virtual machine from start to finish. Going through the entire process myself made the commands feel much more natural and helped me better understand how Linux is used outside of guided labs.
 
@@ -106,7 +105,6 @@ I also learned how virtual machines work, how to organize files and folders from
 
 ## Next Steps
 
-## Next Steps
 
-This lab gave me a good foundation, but I know there's still a lot to learn. My next goal is to keep practicing Linux until using the terminal feels natural. I also plan to learn more about users and groups, file permissions, package management, Bash scripting, and complete more Linux-focused labs on TryHackMe and Hack The Box while continuing to document my progress on GitHub.
+This lab gave me a good foundation, but I know there's still a lot to learn. My next goal is to keep practicing Linux until using the terminal feels natural. I also plan to learn more about users and groups, file permissions, package management, and Bash scripting. I also want to complete more Linux labs on TryHackMe and Hack The Box while continuing to document my progress on GitHub.
 
