@@ -17,7 +17,7 @@ Users can access things they shouldn't.
 
 **Example:** A user changes a URL and is able to see another user's account.
 
-**How to prevent:** Check user permissions on the server, give users only the access they need, and don't trust user input.
+**How to prevent:** Check user permissions on the server, give users only the access they need, don't trust user input.
 
 ---
 
@@ -25,9 +25,9 @@ Users can access things they shouldn't.
 
 The application isn't set up securely.
 
-**Examples:** Default passwords, open admin pages, or debug mode left on.
+**Examples:** Default passwords, open admin pages, debug mode left on.
 
-**How to prevent:** Remove anything you don't need, keep software updated, and use secure settings.
+**How to prevent:** Remove anything you don't need, keep software updated, use secure settings.
 
 ---
 
@@ -37,7 +37,7 @@ Problems caused by software or libraries the application depends on.
 
 **Examples:** Using outdated packages or installing vulnerable third-party software.
 
-**How to prevent:** Keep dependencies updated, only use trusted software, and watch for security updates.
+**How to prevent:** Keep dependencies updated, only use trusted software, watch for security updates.
 
 ---
 
@@ -47,7 +47,7 @@ Sensitive information isn't protected properly.
 
 **Examples:** Weak passwords, passwords stored in plain text, or weak encryption.
 
-**How to prevent:** Use strong encryption, hash passwords, and always use HTTPS.
+**How to prevent:** Use strong encryption, hash passwords, always use HTTPS.
 
 ---
 
@@ -71,9 +71,9 @@ The application was designed in a way that makes security problems easier to exp
 
 Problems with logins, passwords, or user sessions.
 
-**Example:** Weak passwords or sessions that never expire.
+**Example:** Weak passwords,, sessions that never expire.
 
-**How to prevent:** Use strong password policies, MFA, secure session handling, and rate limiting.
+**How to prevent:** Strong password policies, MFA, secure session handling, and rate limiting.
 
 ---
 
@@ -81,9 +81,9 @@ Problems with logins, passwords, or user sessions.
 
 The application trusts software, updates, or data that it shouldn't.
 
-**Example:** Installing an update from an untrusted source.
+**Example:** Installing an update from untrusted source.
 
-**How to prevent:** Verify updates, use trusted sources, and check software integrity.
+**How to prevent:** Verify updates, use trusted sources, check software integrity.
 
 ---
 
