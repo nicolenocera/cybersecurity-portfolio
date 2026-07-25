@@ -8,4 +8,4 @@ It was cool seeing all the GET and POST requests being sent. I still don't know 
 
 ### Screenshot
 
-![Burp HTTP History](screenshots/01-burp-http-history.png)
+![Burp HTTP History](screenshots/01-burp-http-history-test.png)
