@@ -2,7 +2,7 @@
 
 ## Objective
 
-The goal of this lab was to identify a valid username by comparing small differences in the server's responses. Once I found the valid username, I used Burp Suite Intruder to identify the correct password and complete the lab.
+Use Burp Suite Intruder to find a valid username by comparing the server's responses, then find the correct password and complete the lab.
 
 ---
 
@@ -14,19 +14,19 @@ The goal of this lab was to identify a valid username by comparing small differe
 
 ---
 
-## Step 1 - Capturing the Login Request
+## Step 1 - Capture the Login Request
 
-I opened the PortSwigger lab in Burp's browser and submitted a login request using random credentials.
+I opened the lab in Burp's browser and tried logging in with random credentials.
 
-The request appeared in HTTP History, where I could inspect it before sending it to Intruder.
+The login request appeared in HTTP History, so I sent it to Intruder.
 
-At this point, I was mostly trying to get comfortable navigating Burp Suite and understanding how requests moved through the application.
+I was still learning Burp at this point, so I spent some time looking through the request before moving on.
 
 ![Burp HTTP History](screenshots/01-burp-http-history-test.png)
 
 ![HTTP History](screenshots/02-http-history.png)
 
-![Captured Login Request](screenshots/03-request.png)
+![Login Request](screenshots/03-request.png)
 
 ![Send to Intruder](screenshots/04-send-to-intruder.png)
 
@@ -34,21 +34,19 @@ At this point, I was mostly trying to get comfortable navigating Burp Suite and 
 
 ## Step 2 - Troubleshooting
 
-The first time I launched the Intruder attack, every request returned an error.
+My first Intruder attack didn't work.
 
-Instead of immediately starting over, I spent some time figuring out why.
+I checked the proxy settings, Task Log, and Site Map to figure out what was wrong.
 
-I checked Burp's proxy settings, looked through the Task Log, and explored the Site Map. This helped me confirm that Burp was capturing traffic correctly, but my request and attack setup were not aligned.
+After some troubleshooting, I realized I needed to capture a new login request from the current lab session. Once I did that, everything worked correctly.
 
-I also learned that I needed to capture a fresh login request after the lab session changed. Once I corrected the setup and used the current request, the attack worked normally.
-
-Although it was frustrating at first, troubleshooting the problem helped me understand Burp Suite much better.
+This ended up helping me understand Burp Suite a lot better.
 
 ![Proxy Settings](screenshots/05-troubleshooting-proxy-settings.png)
 
 ![Task Log](screenshots/06-task-log.png)
 
-![Site Map Troubleshooting](screenshots/07-site-map-troubleshooting.png)
+![Site Map](screenshots/07-site-map-troubleshooting.png)
 
 ![Site Map Filter](screenshots/08-site-map-filter.png)
 
@@ -56,49 +54,49 @@ Although it was frustrating at first, troubleshooting the problem helped me unde
 
 ---
 
-## Step 3 - Username Enumeration
+## Step 3 - Find the Username
 
-After fixing the setup, I configured Intruder to test the usernames provided by the lab.
+I configured Intruder to test the usernames provided by the lab.
 
-I placed the payload position around the username value and loaded the username wordlist supplied by the lab.
+Instead of looking for a successful login, I compared the response lengths.
 
-Instead of looking for a successful login, I compared the response lengths returned for each username. Most responses had the same length, but one was slightly different.
+One username had a different response length than the rest.
 
 The valid username was:
 
-**alterwind**
+alterwind
 
 ![Payload Configuration](screenshots/15-payload-configuration.png)
 
-![Lab Username List](screenshots/16-authlab-lab-usernames.png)
+![Username List](screenshots/16-authlab-lab-usernames.png)
 
-![Username Enumeration Results](screenshots/10-username-enumeration-results.png)
+![Username Results](screenshots/10-username-enumeration-results.png)
 
-![Valid Username Found](screenshots/11-valid-username-found.png)
+![Valid Username](screenshots/11-valid-username-found.png)
 
 ---
 
-## Step 4 - Password Attack
+## Step 4 - Find the Password
 
-Once I had the correct username, I entered **alterwind** as a fixed value and moved the Intruder payload position to the password field.
+After finding the username, I changed the payload position to the password field.
 
-I loaded the supplied password list and launched another attack.
+I loaded the password list and ran another Intruder attack.
 
-This time, I looked for a response that was different from the others. One password returned a **302** status instead of **200**, indicating that the login was successful.
+This time I looked for a different status code. One response returned 302 instead of 200, showing the correct password.
 
 The valid password was:
 
-**abc123**
+abc123
 
-![Password Attack Configuration](screenshots/12-password-attack-configured.png)
+![Password Configuration](screenshots/12-password-attack-configured.png)
 
-![Valid Password Found](screenshots/13-valid-password-found.png)
+![Valid Password](screenshots/13-valid-password-found.png)
 
+---
 
+## Step 5 - Complete the Lab
 
-## Step 5 - Lab Completed
-
-Using the discovered username and password, I successfully logged into the account and completed the PortSwigger lab.
+I logged in with the username and password I found and completed the lab.
 
 ![Lab Solved](screenshots/14-lab-solved.png)
 
@@ -106,10 +104,9 @@ Using the discovered username and password, I successfully logged into the accou
 
 ## What I Learned
 
-- How to capture and inspect login requests using Burp Suite.
-- How to send a request to Burp Intruder.
-- How to configure payload positions.
-- How response lengths can reveal a valid username.
-- How a different HTTP status code can indicate a successful login.
-- How to troubleshoot Burp when an attack does not behave as expected.
-- Why it is important to use a fresh request from the current lab session.
+- How to capture requests in Burp Suite
+- How to send requests to Intruder
+- How to configure payload positions
+- How response lengths can identify a valid username
+- How different status codes can identify a successful login
+- Why it's important to capture a new request if a lab session changes
