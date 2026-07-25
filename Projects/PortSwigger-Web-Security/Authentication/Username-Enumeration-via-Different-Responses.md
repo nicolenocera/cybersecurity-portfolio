@@ -94,27 +94,7 @@ The valid password was:
 
 ![Valid Password Found](screenshots/13-valid-password-found.png)
 
----
 
-## Step 5 - Lab Completed
-
-Using the discovered username and password, I successfully logged into the account and completed the PortSwigger lab.
-
-![Lab Solved](screenshots/14-lab-solved.png)
-
----
-
-## What I Learned
-
-- How to capture and inspect login requests using Burp Suite.
-- How to send requests to Burp Intruder.
-- How to configure payload positions.
-- How response lengths can reveal a valid username.
-- How different HTTP status codes can identify a successful login.
-- How to troubleshoot Burp Suite when an attack doesn't behave as expected.
-- Why it's important to capture a fresh request after a lab session changes or expires.
-
----
 
 ## Step 5 - Lab Completed
 
