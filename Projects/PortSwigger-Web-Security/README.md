@@ -14,4 +14,4 @@ My goal is to better understand common web vulnerabilities by documenting what I
 - [ ] XSS
 - [ ] Server-Side Vulnerabilities
 
-Bonus: How I'm learning to my github look nicer! https://youtu.be/z8UPAVTh2aE?si=dlCbjVQpJcZL7u68
+Bonus: How I'm learning to make my github look nicer! https://youtu.be/z8UPAVTh2aE?si=dlCbjVQpJcZL7u68
