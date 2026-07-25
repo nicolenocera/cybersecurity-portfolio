@@ -13,3 +13,5 @@ My goal is to better understand common web vulnerabilities by documenting what I
 - [ ] CSRF
 - [ ] XSS
 - [ ] Server-Side Vulnerabilities
+
+Bonus: How I started making my github look nicer! https://youtu.be/z8UPAVTh2aE?si=dlCbjVQpJcZL7u68
