@@ -11,7 +11,7 @@ Find a valid username by comparing login responses, then use it to find the corr
 - Burp Suite Community Edition
 - Burp Intruder
 - PortSwigger Web Security Academy
-- [PortSwigger Lab](https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses)
+- [PortSwigger Youtube]([https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses](https://youtu.be/ouDe5sJ_uC8?si=Y-NozewmaqAFwL40))
 
 ---
 
