@@ -11,7 +11,7 @@ Find a valid username by comparing login responses, then use it to find the corr
 - Burp Suite Community Edition
 - Burp Intruder
 - PortSwigger Web Security Academy
-- :contentReference[oaicite:0]{index=0}
+- Portswigger youtube channel was helpful for tips: https://youtu.be/ouDe5sJ_uC8?si=Y-NozewmaqAFwL40
 
 ---
 
