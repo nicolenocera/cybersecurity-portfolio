@@ -23,10 +23,10 @@ Find a valid username by comparing login responses, then use it to find the corr
 4. Loaded the candidate usernames wordlist.
 5. Sorted the results by response length, but nothing stood out.
 6. Used Grep Match and Grep Extract to compare the responses.
-7. Found that the username `anaheim` had a slightly different response because it was missing the period at the end of the error message.
-8. Changed the payload to the password field and kept the username set to `anaheim`.
+7. Found that the username `anaheim` had a different response because it was missing the period at the end of the error message. Instead of "Invalid username or password." it was "Invalid username or password" with no period. It was the only difference I could find.
+8. Changed the payload to the password and kept the username set to `anaheim`.
 9. Loaded the candidate passwords wordlist and ran the attack again.
-10. Found that the password `robert` returned a `302` status code.
+10. Found that the password `robert` had a `302` status code.
 11. Logged in with:
     ```
     Username: anaheim
@@ -40,7 +40,6 @@ Find a valid username by comparing login responses, then use it to find the corr
 
 - Small response differences can reveal valid usernames.
 - Grep Extract makes small differences easier to spot.
-- A `302` response usually means the login was successful.
 - Burp Intruder makes username and password enumeration much faster.
 
 ---
