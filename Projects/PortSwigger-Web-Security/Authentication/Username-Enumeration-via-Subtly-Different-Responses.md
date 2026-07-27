@@ -2,7 +2,7 @@
 
 ## Objective
 
-Find a valid username by comparing login responses, then use it to identify the correct password and solve the lab.
+Find a valid username by comparing login responses, then use it to find the correct password and solve the lab.
 
 ---
 
@@ -11,6 +11,7 @@ Find a valid username by comparing login responses, then use it to identify the 
 - Burp Suite Community Edition
 - Burp Intruder
 - PortSwigger Web Security Academy
+- :contentReference[oaicite:0]{index=0}
 
 ---
 
@@ -18,31 +19,19 @@ Find a valid username by comparing login responses, then use it to identify the 
 
 1. Captured the `POST /login` request in Burp Suite.
 2. Sent the request to Intruder.
-3. Used a Sniper attack with the username as the payload.
+3. Used Sniper with the username as the payload.
 4. Loaded the candidate usernames wordlist.
 5. Sorted the results by response length, but nothing stood out.
-6. Used Grep Match and Grep Extract to compare the error messages.
-7. Found that the username **anaheim** returned:
-
-   ```
-   Invalid username or password
-   ```
-
-   while every other username returned:
-
-   ```
-   Invalid username or password.
-   ```
-
-8. Fixed the username as **anaheim** and moved the payload to the password field.
-9. Loaded the candidate passwords wordlist and ran a second attack.
-10. Found that **robert** returned a **302** status code.
+6. Used Grep Match and Grep Extract to compare the responses.
+7. Found that the username `anaheim` had a slightly different response because it was missing the period at the end of the error message.
+8. Changed the payload to the password field and kept the username set to `anaheim`.
+9. Loaded the candidate passwords wordlist and ran the attack again.
+10. Found that the password `robert` returned a `302` status code.
 11. Logged in with:
-
-   Username: anaheim
-
-   Password: robert
-
+    ```
+    Username: anaheim
+    Password: robert
+    ```
 12. Solved the lab.
 
 ---
@@ -50,8 +39,8 @@ Find a valid username by comparing login responses, then use it to identify the 
 ## What I Learned
 
 - Small response differences can reveal valid usernames.
-- Grep Extract makes subtle response differences easier to spot.
-- A 302 response can indicate a successful login.
+- Grep Extract makes small differences easier to spot.
+- A `302` response usually means the login was successful.
 - Burp Intruder makes username and password enumeration much faster.
 
 ---
@@ -62,7 +51,7 @@ Find a valid username by comparing login responses, then use it to identify the 
 
 ![Grep Match](screenshots/17-grep-match.png)
 
-Configured Grep Match while comparing responses.
+Configured Grep Match while checking the responses.
 
 ---
 
@@ -70,7 +59,7 @@ Configured Grep Match while comparing responses.
 
 ![Grep Extract](screenshots/18-grep-extract.png)
 
-Configured Grep Extract to compare the login error messages.
+Configured Grep Extract to compare the login messages.
 
 ---
 
@@ -78,7 +67,7 @@ Configured Grep Extract to compare the login error messages.
 
 ![Username Found](screenshots/19-username-found.png)
 
-Found the valid username **anaheim** after noticing the missing period in the response.
+Found the valid username `anaheim` after noticing the missing period.
 
 ---
 
@@ -94,7 +83,7 @@ Configured the password attack using the valid username.
 
 ![Password Found](screenshots/21-password-found.png)
 
-The password **robert** returned a **302** response.
+Found the correct password `robert` after seeing the `302` response.
 
 ---
 
@@ -102,4 +91,4 @@ The password **robert** returned a **302** response.
 
 ![Lab Completed](screenshots/22-lab-completed.png)
 
-Successfully logged in and solved the lab.
+Successfully logged in and completed the lab.
