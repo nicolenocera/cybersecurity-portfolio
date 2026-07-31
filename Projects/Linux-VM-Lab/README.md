@@ -108,3 +108,5 @@ I also learned how virtual machines work, how to organize files and folders from
 
 This lab gave me a good foundation, but I know there's still a lot to learn. My next goal is to keep practicing Linux until using the terminal feels natural. I also plan to learn more about users and groups, file permissions, package management, and Bash scripting. I also want to complete more Linux labs on TryHackMe and Hack The Box while continuing to document my progress on GitHub.
 
+Resources for github:
+-https://youtu.be/z8UPAVTh2aE?si=Wn__QbSG8GdVt4rA
