@@ -4,7 +4,7 @@
 
 This project documents the process of building a Windows Server 2025 Active Directory environment from scratch using Oracle VirtualBox.
 
-The goal of this lab was to gain hands-on experience with common Windows Server administration tasks including Active Directory deployment, DNS configuration, Organizational Units (OUs), user management, security groups, Group Policy, and common help desk administration tasks.
+The goal of this lab was to gain experience with common Windows Server administration tasks like Active Directory deployment, DNS configuration, OUs, user management, security groups, Group Policy, and common help desk tasks.
 
 Instead of stopping after the initial installation, I built a small business environment to practice realistic administrative tasks such as onboarding users, organizing departments, managing security groups, applying Group Policy, and disabling employee accounts.
 
