@@ -2,7 +2,7 @@
 
 ## Overview
 
-I built this lab to get hands-on experience with Windows Server and Active Directory.
+I built this lab to get experience with Windows Server and Active Directory.
 
 The goal was to learn how to install and configure Active Directory, create users and groups, organize Organizational Units (OUs), work with Group Policy, and practice common help desk tasks in a small business environment.
 
