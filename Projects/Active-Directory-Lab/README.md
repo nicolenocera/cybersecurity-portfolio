@@ -241,15 +241,3 @@ This project was completed using a combination of Microsoft's official documenta
 - [GitHub README Tutorial (Additional)](https://youtu.be/gbBwIPs1NPw?si=GXLA4mZjFOluXmux)
 - [GitHub Profile & Repository Tips](https://youtu.be/OShHVX_dBjo?si=_O0IbAha4nsfiRZ_)
 
----
-
-# Future Improvements
-
-As I continue learning Windows Server administration, I'd like to expand this lab by:
-
-- Joining a Windows client machine to the domain
-- Creating additional Group Policy Objects
-- Configuring shared folders and NTFS permissions
-- Practicing Group Policy troubleshooting
-- Learning basic Active Directory administration with PowerShell
-- Expanding the environment with additional Windows Servers and client machines
