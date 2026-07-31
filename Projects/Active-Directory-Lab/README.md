@@ -2,19 +2,17 @@
 
 ## Overview
 
-This project documents the process of building a Windows Server 2025 Active Directory environment from scratch using Oracle VirtualBox.
+I built this lab to get hands-on experience with Windows Server and Active Directory.
 
-The goal of this lab was to gain experience with common Windows Server administration tasks like Active Directory deployment, DNS configuration, OUs, user management, security groups, Group Policy, and common help desk tasks.
-
-Instead of stopping after the initial installation, I built a small business environment to practice realistic administrative tasks such as onboarding users, organizing departments, managing security groups, applying Group Policy, and disabling employee accounts.
+The goal was to learn how to install and configure Active Directory, create users and groups, organize Organizational Units (OUs), work with Group Policy, and practice common help desk tasks in a small business environment.
 
 ---
 
 ## Note
 
-This project is part of my ongoing IT and cybersecurity learning journey. Along with building technical skills, I'm also learning how to properly document projects and organize my GitHub portfolio.
+I'm still learning Windows Server, Active Directory, and GitHub, so I used Microsoft documentation and YouTube tutorials while building this lab. I also used this project to practice writing better documentation for my GitHub portfolio.
 
-At the bottom of this README I've included some of the Microsoft documentation, tutorials, and GitHub resources I used while building both this Active Directory lab and improving the presentation of my repositories. My goal is to continually improve both my technical skills and the way I document my work.
+I've included the resources I used at the bottom of this README.
 
 ---
 
@@ -33,29 +31,27 @@ At the bottom of this README I've included some of the Microsoft documentation, 
 
 # Skills Demonstrated
 
-- Windows Server Administration
-- Active Directory Domain Services (AD DS)
-- DNS Configuration
+- Windows Server
+- Active Directory
+- DNS
 - Static IP Configuration
 - Domain Controller Deployment
 - Organizational Units (OUs)
-- User Account Management
-- Security Group Administration
-- Group Policy Management
-- User Onboarding
-- User Offboarding
-- Basic Help Desk Administration
+- User & Group Management
+- Security Groups
+- Group Policy
+- Basic Help Desk Tasks
 
 ---
 
-# Project Walkthrough
+# Lab Walkthrough
 
 ## 1. Configure the Server
 
 - Installed Windows Server 2025
 - Renamed the server to DC01
 - Configured a static IP address
-- Verified network connectivity using `ipconfig` and `ping`
+- Verified network connectivity with `ipconfig` and `ping`
 
 ![Server Renamed](screenshots/01-server-renamed-dc01.png)
 
@@ -63,9 +59,9 @@ At the bottom of this README I've included some of the Microsoft documentation, 
 
 ---
 
-## 2. Install Active Directory Domain Services
+## 2. Install Active Directory
 
-Installed the Active Directory Domain Services role using Server Manager.
+Installed the Active Directory Domain Services role.
 
 ![Install AD DS](screenshots/03-add-active-directory.png)
 
@@ -73,15 +69,15 @@ Installed the Active Directory Domain Services role using Server Manager.
 
 ---
 
-## 3. Promote the Server to a Domain Controller
+## 3. Promote the Server
 
-Created a new Active Directory forest using the domain:
+Created a new Active Directory forest using:
 
 **homelab.local**
 
-During installation I received the expected DNS delegation warning because this was a brand-new forest with no existing DNS infrastructure.
+A DNS delegation warning appeared during setup, which is expected when creating a new forest.
 
-All prerequisite checks completed successfully before promoting the server.
+All prerequisite checks passed before promoting the server.
 
 ![DNS Delegation Warning](screenshots/05-dns-delegation-warning.png)
 
@@ -93,9 +89,9 @@ All prerequisite checks completed successfully before promoting the server.
 
 ## 4. Create Organizational Units
 
-Created Organizational Units to organize users and resources into separate departments.
+Created Organizational Units for different departments and resources.
 
-Organizational Units created:
+Created:
 
 - Company Users
 - HR
@@ -109,15 +105,9 @@ Organizational Units created:
 
 ---
 
-## 5. Create User Accounts
+## 5. Create Users
 
-Created user accounts to simulate a small business environment.
-
-Departments include:
-
-- Company Users
-- IT
-- HR
+Created users for different departments.
 
 ![Company Users](screenshots/09-company-users-created.png)
 
@@ -129,7 +119,7 @@ Departments include:
 
 ## 6. Create Security Groups
 
-Created security groups to simplify permission management and make user administration easier.
+Created security groups and added users to the correct groups.
 
 Groups created:
 
@@ -138,29 +128,25 @@ Groups created:
 - IT Support
 - Domain Admins (Labs)
 
-Added users to the appropriate security groups.
-
 ![Security Groups](screenshots/12-security-groups-created.png)
 
 ![Group Membership](screenshots/13-group-membership.png)
 
 ---
 
-## 7. Perform Active Directory Administration
+## 7. Active Directory Administration
 
-Practiced several common Active Directory administration tasks.
+Completed a few common Active Directory administration tasks.
 
-### Disabled a User Account
+### Disable a User
 
-Disabled a user account to simulate an employee leaving the company.
+Disabled a user account.
 
 ![Disabled Account](screenshots/14-disabled-account.png)
 
----
+### Move a User
 
-### Department Transfer
-
-Moved a user from the Company Users OU into the HR department and updated group membership.
+Moved a user to the HR OU and updated group membership.
 
 ![User Moved to HR](screenshots/15-user-moved-to-hr.png)
 
@@ -172,7 +158,7 @@ Moved a user from the Company Users OU into the HR department and updated group 
 
 Created a Group Policy Object named **Company Desktop Policy**.
 
-Linked the policy to the Company Users Organizational Unit and configured it to prevent users from accessing Control Panel and Windows Settings.
+Linked it to the Company Users OU and blocked access to Control Panel and Windows Settings.
 
 ![Company Desktop Policy](screenshots/17-company-desktop-policy-created.png)
 
@@ -182,21 +168,17 @@ Linked the policy to the Company Users Organizational Unit and configured it to 
 
 ---
 
-## 9. Simulated Help Desk Scenarios
+## 9. Help Desk Scenarios
 
-To reinforce Active Directory administration skills, I completed several common help desk tasks.
+### New Employee
 
-### New Employee Onboarding
-
-Created a new employee account, placed the user into the HR Organizational Unit, and assigned the appropriate security group.
+Created a new HR employee and assigned the correct Organizational Unit and security group.
 
 ![New User Onboarding](screenshots/20-new-user-onboarding.png)
 
----
-
 ### Employee Offboarding
 
-Disabled a former employee account and moved it into a Disabled Users Organizational Unit.
+Disabled a user account and moved it into the Disabled Users OU.
 
 ![Disabled User](screenshots/21-disabled-user.png)
 
@@ -204,25 +186,24 @@ Disabled a former employee account and moved it into a Disabled Users Organizati
 
 # What I Learned
 
-Before this project, I had never deployed an Active Directory environment from scratch.
+This was my first time building an Active Directory environment from scratch.
 
-Building this lab helped me better understand how Domain Controllers, DNS, Organizational Units, security groups, and Group Policy work together inside a Windows Server environment.
+By the end of this project I was comfortable:
 
-I also became more comfortable performing common administrative tasks such as:
-
-- Creating and managing user accounts
-- Organizing users into departments
-- Managing security groups
+- Installing Active Directory
+- Promoting a Domain Controller
+- Creating Organizational Units
+- Managing users and security groups
 - Creating and linking Group Policy Objects
-- Onboarding new employees
-- Disabling user accounts
 - Performing common Active Directory administration tasks
+
+I also became more comfortable navigating Windows Server and documenting my work as I completed the lab.
 
 ---
 
 # Learning Resources
 
-This project was completed using a combination of Microsoft's official documentation and community-created learning resources. These references helped reinforce concepts while building the lab and improving the documentation for this project.
+I used a mix of Microsoft documentation and community tutorials while building this lab. I also watched a few GitHub videos while learning how to better organize and document my projects.
 
 ## Microsoft Learn
 
@@ -240,4 +221,16 @@ This project was completed using a combination of Microsoft's official documenta
 - [Markdown & GitHub README Guide](https://youtu.be/AU2I-GvQc0Q?si=cba-fo7aufMMFC1k)
 - [GitHub README Tutorial (Additional)](https://youtu.be/gbBwIPs1NPw?si=GXLA4mZjFOluXmux)
 - [GitHub Profile & Repository Tips](https://youtu.be/OShHVX_dBjo?si=_O0IbAha4nsfiRZ_)
+
+---
+
+# Next Steps
+
+Some things I'd like to add to this lab in the future:
+
+- Join a Windows client to the domain
+- Create more Group Policy Objects
+- Configure shared folders and NTFS permissions
+- Learn basic Active Directory PowerShell commands
+- Expand the lab with additional Windows clients and servers
 
