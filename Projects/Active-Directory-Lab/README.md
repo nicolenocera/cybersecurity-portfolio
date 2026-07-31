@@ -219,7 +219,7 @@ I used a mix of Microsoft documentation and community tutorials while building t
 - [GitHub Portfolio Tutorial](https://youtu.be/z8UPAVTh2aE?si=U-vHv2dFYEV1Yp8p)
 - [GitHub README Tutorial](https://youtu.be/zgqfWLHNKLk?si=wgqzEjhG6_o13NBN)
 - [Markdown & GitHub README Guide](https://youtu.be/AU2I-GvQc0Q?si=cba-fo7aufMMFC1k)
-- [GitHub README Tutorial (Additional)](https://youtu.be/gbBwIPs1NPw?si=GXLA4mZjFOluXmux)
+- [GitHub README Tutorial](https://youtu.be/gbBwIPs1NPw?si=GXLA4mZjFOluXmux)
 - [GitHub Profile & Repository Tips](https://youtu.be/OShHVX_dBjo?si=_O0IbAha4nsfiRZ_)
 
 
