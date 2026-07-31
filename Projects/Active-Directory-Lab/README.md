@@ -222,15 +222,4 @@ I used a mix of Microsoft documentation and community tutorials while building t
 - [GitHub README Tutorial (Additional)](https://youtu.be/gbBwIPs1NPw?si=GXLA4mZjFOluXmux)
 - [GitHub Profile & Repository Tips](https://youtu.be/OShHVX_dBjo?si=_O0IbAha4nsfiRZ_)
 
----
-
-# Next Steps
-
-Some things I'd like to add to this lab in the future:
-
-- Join a Windows client to the domain
-- Create more Group Policy Objects
-- Configure shared folders and NTFS permissions
-- Learn basic Active Directory PowerShell commands
-- Expand the lab with additional Windows clients and servers
 
