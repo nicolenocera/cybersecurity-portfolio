@@ -7,7 +7,7 @@ My goal is to better understand common web vulnerabilities by documenting what I
 ## Topics
 
 - [x] OWASP Top 10 Notes
-- [ ] Authentication
+- [x] Authentication
 - [ ] SQL Injection 
 - [ ] Path Traversal
 - [ ] CSRF
